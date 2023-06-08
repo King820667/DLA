@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Установка ширины всего тела страницы на 1366 пикселей */
+body {
+    width: 1366px;
+    /* Центрирование тела страницы по горизонтали */
+    margin: 0 auto;
+}
+
+/* CSS стиль для заголовка страницы */
+.header {
+    margin-top: 34px; /* отступ сверху от верхнего края */
+    margin-bottom: 76.84px; /* отступ снизу от нижнего края */
+    height: 48px; /* высота блока */
+    display: flex; /* установка режима отображения */
+    justify-content: center; /* выравнивание по горизонтали по центру */
+}
+/* Блок заголовка с копирайтом */
+.header__oopyrights {
+    /* Выравнивание элементов по центру */
+    align-items: center;
+    /* Отображение элементов в виде строки */
+    display: flex;
+    /* Равномерное распределение пространства между элементами */
+    justify-content: space-between;
+    /* Отступы от границ элемента */
+    padding: 10px;
+    /* Цвет текста */
+    color: black;
+}
+/* Установка размеров для элемента с классом "header_wrap_img_nav" */
+.header_wrap_img_nav {
+    width: 100.5px; /* установка ширины элемента */
+    height: 100.5px; /* установка высоты элемента */
+}
+
+.header_wrap {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CSS стили для элемента с классом "info" */
+.info {
+    /* Устанавливаем расположение дочерних элементов внутри родительского блока по горизонтали,
+       равномерно распределяя пространство между ними */
+    display: flex;
+    justify-content: space-between;
+    /* Устанавливаем отступ снизу для элемента */
+    margin-bottom: 46px;
+}
+
+/* Обертка для текста информации */
+.info_wrap_text {
+    /* Ширина блока */
+    width: 425px;
+    /* Высота блока */
+    height: 82px;
+    /* Шрифт */
+    font-family: 'Roboto';
+    /* Обычный стиль шрифта */
+    font-style: normal;
+    /* Нормальный вес шрифта */
+    font-weight: 400;
+    /* Размер шрифта */
+    font-size: 16px;
+    /* Межстрочный интервал */
+    line-height: 26px;
+    /* Межбуквенный интервал */
+    letter-spacing: 0.05em;
+    /* Цвет текста */
+    color: #1F3F68;
+    /* Непрозрачность элемента */
+    opacity: 0.6;
+    /* Отступ снизу */
+    margin-bottom: 71px;
+    /* Отступ слева */
+    margin-left: 114px;
+    /* Цвет текста */
+    color: #222222;
+}
+
+/* Обертка для изображения */
+.info_wrap_img {
+    /* Ширина изображения */
+    width: 553.68px;
+    /* Высота изображения */
+    height: 481.39px;
+    /* Отступ снизу от элемента */
+    margin-bottom: 93.61px;
+    /* Отступ справа от элемента */
+    margin-right: 113.32px;
+}
+
+.title {
+    width: 504px;
+    height: 148px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 32px;
+    margin-right: 82px;
+    margin-left: 113px;
+}
+
+.info_wrap_link {
+    width: 220px;
+    height: 56px;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    margin-left: 114px;
+}
+
+.info_wrap_link_text {
+    width: 120px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+.about {
+    /*Отступ снизу*/
+    margin-bottom: 34.87px;
+}
+/* Заголовок блока */
+.about_title {
+    width: 1362.41px; /* Ширина заголовка */
+    height: 42.26px; /* Высота заголовка */
+    font-family: 'Roboto'; /* Шрифт заголовка */
+    font-style: normal; /* Стиль шрифта заголовка */
+    font-weight: 300; /* Толщина шрифта заголовка */
+    font-size: 36px; /* Размер шрифта заголовка */
+    line-height: 46px; /* Межстрочный интервал заголовка */
+    text-align: center; /* Выравнивание текста в заголовке по центру */
+    letter-spacing: 0.05em; /* Межбуквенный интервал заголовка */
+    color: #000000; /* Цвет текста заголовка */
+    margin-bottom: 66.08px; /* Отступ снизу от заголовка */
+}
+/* Обертка для элементов внутри блока достежении */
+.about_wrap {
+    /* Отображение элементов внутри блока в одну строку с промежутком между ними */
+    display: flex;
+    /* Выравнивание элементов по горизонтали с равным пространством между ними */
+    justify-content: space-between;
+    /* Установка промежутка между элементами */
+    gap: 15px;
+}
+/* Задаем стили для левого блока обертки */
+.about_wrap_left {
+    width: 430.17px; /* задаем ширину блока */
+    height: 494.9px; /* задаем высоту блока */
+    background: #FFFFFF; /* устанавливаем белый цвет фона */
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2); /* добавляем тень блока */
+    border-radius: 10px; /* задаем радиус скругления углов блока */
+}
+/* CSS код для блоков с картинками на странице */
+/* Определяем классы блоков с картинками слева, по центру и справа */
+.about_wrap_left_img_box,
+.about_wrap_center_img_box,
+.about_wrap_right_img_box {
+    /* Определяем свойство display с значением flex */
+    display: flex;
+    /* Определяем свойство justify-content с значением center */
+    justify-content: center;
+}
+
+/* CSS стили для картинки в блоке c информацией о достижениях*/
+.about_wrap_left_img {
+    width: 206.03px; /* задаем ширину картинки */
+    height: 124.43px; /* задаем высоту картинки */
+    margin-bottom: 52.96px; /* задаем отступ снизу */
+    margin-top: 45.25px; /* задаем отступ сверху */
+}
+
+
+.about_wrap_left_subtitle_box {
+    margin: 0px 52.72px 14.43px 38.34px;
+}
+
+.about_wrap_left_subtitle {
+    width: 339.1px;
+    height: 56.69px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.about_wrap_left_text_box {
+    margin: 0px 70.33px 30.72px 38.34px;
+}
+
+.text {
+    width: 321.5px;
+    height: 97.1px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.about_wrap_link {
+    width: 93.46px;
+    height: 27.83px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    margin-bottom: 45.49px;
+    margin-left: 38.34px;
+    text-decoration: none;
+}
+
+.about_wrap_center {
+    width: 428.97px;
+    height: 494.79px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    margin: 0px 38.34px;
+}
+
+.about_wrap_center_img {
+    width: 157.68px;
+    height: 129.44px;
+    margin-top: 44.95px;
+    margin-bottom: 46.08px;
+}
+
+.about_wrap_center_subtitle_box {
+    margin: 0px 38.34px 15.46px;
+}
+
+.about_wrap_center_subtitle {
+    width: 352.28px;
+    height: 57.72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.about_wrap_center_text_box {
+    margin: 0px 38.34px 28.86px;
+}
+
+.about_wrap_right {
+    width: 430.17px;
+    height: 494.77px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.about_wrap_right_img_box {
+    display: flex;
+    justify-content: center;
+}
+
+.about_wrap_right_img {
+    width: 176.6px;
+    height: 122.33px;
+    margin-top: 50.02px;
+    margin-bottom: 50.3px;
+}
+
+.about_wrap_right_subtitle_box {
+    margin: 0px 38.34px 15.46px;
+}
+
+.about_wrap_right_subtitle {
+    width: 353.48px;
+    height: 57.72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.about_wrap_right_text_box {
+    margin: 0px 38.34px 27.83px;
+}
+
+.our_wrap_title {
+    width: 1365px;
+    height: 47.19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 32.83px;
+}
+
+.our_wrap_title2 {
+    width: 1365px;
+    height: 700px;
+    text-align:  center;
+    
+   
+}
+
+.our_wrap_text {
+    width: 898.03px;
+    height: 53.34px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    margin-bottom: 65.65px;
+    margin-left: 233.985px;
+}
+
+.our_wrap_top_box {
+    width: 1365px;
+    height: 492.px;
+    border-radius: 10px;
+    margin-bottom: 32.83px;
+    background: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.78%), url(img/3D.png);
+}
+
+.our_wrap_top_subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-top: 65.65px;
+    padding-right: 76.63px;
+}
+
+.our_wrap_bottom_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_wrap_bottom_subtitle_left_box {
+    width: 663.34px;
+    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%), url(img/3D2Ata.png);
+    border-radius: 10px;
+    margin-bottom: 107px;
+}
+
+.our_wrap_bottom_subtitle_left {
+    width: 423.12px;
+    height: 47.19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 32.83px 405.91px 347.75px 38.32px;
+}
+
+/* Создаем класс для элемента снизу блока-обертки с подзаголовком */
+.our_wrap_bottom_subtitle_right_box {
+    /* Задаем ширину элемента */
+    width: 663.34px;
+    /* Задаем фоновый градиент */
+    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%), url(img/3D3Ata.png);
+    /* Задаем радиус скругления углов элемента */
+    border-radius: 10px;
+    /* Задаем отступ снизу элемента */
+    margin-bottom: 107px;
+}
+
+/* Ниже задаются стили для элемента с классом our_wrap_bottom_subtitle_right */
+.our_wrap_bottom_subtitle_right {
+    /* Задаются ширина и высота элемента */
+    width: 423.12px;
+    height: 47.19px;
+    /* Указывается шрифт и его настройки */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    /* Задаётся цвет текста */
+    color: #FFFFFF;
+    /* Задаются отступы от границ элемента до содержимого */
+    margin: 32.83px 405.91px 347.75px 38.32px;
+}
+.footer_wrap_link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+/* Этот блок стилизует кнопку*/
+.footer_wrap_link {
+    width: 236.63px; /* задает ширину блока */
+    height: 56px; /* задает высоту блока */
+    cursor: pointer; /* курсор будет меняться при наведении на ссылку */
+    background: #5A98D0; /* задает фоновый цвет блока */
+    margin-right: 114.37px; /* задает отступ справа от блока */
+    margin-top: 165px; /* задает отступ сверху от блока */
+    display: flex; /* блок будет выстраиваться в строку */
+    justify-content: center; /* задает выравнивание по горизонтали */
+    align-items: center; /* задает выравнивание по вертикали */
+}
+/* Стиль для кнопок при наведении на них мыши */
+.info_wrap_link:hover {
+    /* Задаем белый фон при наведении мыши */
+    background-color: white;
+    /* Устанавливаем рамку в 3 пикселя вокруг ссылки при наведении мыши */
+    border: 3px solid #316099;
+}
+/* CSS код для изменения цвета текста при наведении на кнопку*/
+.info_wrap_link_text:hover {
+    color: #316099; /* новый цвет текста при наведении */
+}
+/* Стили для кнопок, при наведении на которые происходит изменение фона, границы и цвета текста */
+.footer_wrap_link:hover {
+    background-color: white; /* изменяем цвет фона на белый */
+    border: 3px solid #316099; /* добавляем границу толщиной 3 пикселя и цветом #316099 */
+    color: #316099; /* изменяем цвет текста на #316099 */
+    outline-color: chartreuse; /* задаем цвет обводки для элемента при фокусировке на нем */
+}
+/* Этот CSS код относится к элементам с классом "about_wrap_scale", которые находятся в состоянии наведения курсора на них */
+.about_wrap_scale:hover {
+    /* Применить анимацию с продолжительностью 0.4 секунды, которая будет проигрываться в обратном направлении при каждом воспроизведении */
+    animation: about_wrap_scale 0.4s alternate forwards;
+}
+
+
+.footer__oopyrights {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: black;
+    
+}
+/* Анимация масштабирования элемента about_wrap с помощью ключевых кадров */
+@-webkit-keyframes about_wrap_scale {
+    /* Начальная фаза анимации: элемент не масштабирован и полностью видим */
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    /* Конечная фаза анимации: элемент масштабирован на 5% и полностью видим */
+    100% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        opacity: 1;
+    }
+}
+/* Анимация масштабирования wrap элемента */
+@keyframes about_wrap_scale {
+    /* Начальное состояние элемента */
+    0% {
+        -webkit-transform: scale(1); /* масштабирование элемента без изменения пропорций */
+        transform: scale(1);
+        opacity: 1; /* полностью прозрачный элемент */
+    }
+    /* Конечное состояние элемента */
+    100% {
+        -webkit-transform: scale(1.05); /* увеличение масштаба элемента на 5% */
+        transform: scale(1.05);
+        opacity: 1; /* элемент остается полностью прозрачным */
+    }
+}

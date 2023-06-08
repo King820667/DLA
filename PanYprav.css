@@ -1,0 +1,20 @@
+.main2 {
+    display: flex;
+    align-self: center;
+    margin: auto;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main__button2 {
+    padding: 15px 20px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    outline: 4px solid transparent;
+    border-radius: 5px;
+}
+
+.main_button2:hover {
+    outline-color: chartreuse;
+}

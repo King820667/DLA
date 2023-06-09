@@ -1,20 +1,22 @@
-.main2 {
-    display: flex;
-    align-self: center;
-    margin: auto;
-    flex-direction: column;
-    gap: 20px;
+.footer_wrap_link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
 
-.main__button2 {
-    padding: 15px 20px;
-    background-color: blue;
-    color: white;
-    cursor: pointer;
-    outline: 4px solid transparent;
-    border-radius: 5px;
-}
-
-.main_button2:hover {
-    outline-color: chartreuse;
-}
+/* Этот блок стилизует кнопку*/
+.footer_wrap_link {
+    width: 236.63px; /* задает ширину блока */
+    height: 56px; /* задает высоту блока */
+    cursor: pointer; /* курсор будет меняться при наведении на ссылку */
+    background: #5A98D0; /* задает фоновый цвет блока */
+    margin-right: 114.37px; /* задает отступ справа от блока */
+    margin-top: 165px; /* задает отступ сверху от блока */
+    display: flex; /* блок будет выстраиваться в строку */
+    justify-content: center; /* задает выравнивание по горизонтали */
+    align-items: center; /* задает выравнивание по верт

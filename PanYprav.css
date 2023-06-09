@@ -1,44 +1,20 @@
-.footer_wrap_link {
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
+.main2 {
+    display: flex;
+    align-self: center;
+    margin: auto;
+    flex-direction: column;
+    gap: 20px;
 }
 
-/* Этот блок стилизует кнопку*/
-.footer_wrap_link {
-    width: 236.63px; /* задает ширину блока */
-    height: 56px; /* задает высоту блока */
-    cursor: pointer; /* курсор будет меняться при наведении на ссылку */
-    background: #5A98D0; /* задает фоновый цвет блока */
-    margin-right: 114.37px; /* задает отступ справа от блока */
-    margin-top: 165px; /* задает отступ сверху от блока */
-    display: flex; /* блок будет выстраиваться в строку */
-    justify-content: center; /* задает выравнивание по горизонтали */
-    align-items: center; /* задает выравнивание по верт
-/* Стиль для кнопок при наведении на них мыши */
-.info_wrap_link:hover {
-    /* Задаем белый фон при наведении мыши */
-    background-color: white;
-    /* Устанавливаем рамку в 3 пикселя вокруг ссылки при наведении мыши */
-    border: 3px solid #316099;
+.main__button2 {
+    padding: 15px 20px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    outline: 4px solid transparent;
+    border-radius: 5px;
 }
-/* CSS код для изменения цвета текста при наведении на кнопку*/
-.info_wrap_link_text:hover {
-    color: #316099; /* новый цвет текста при наведении */
+
+.main_button2:hover {
+    outline-color: chartreuse;
 }
-/* Стили для кнопок, при наведении на которые происходит изменение фона, границы и цвета текста */
-.footer_wrap_link:hover {
-    background-color: white; /* изменяем цвет фона на белый */
-    border: 3px solid #316099; /* добавляем границу толщиной 3 пикселя и цветом #316099 */
-    color: #316099; /* изменяем цвет текста на #316099 */
-    outline-color: chartreuse; /* задаем цвет обводки для элемента при фокусировке на нем */
-}
-/* Этот CSS код относится к элементам с классом "about_wrap_scale", которые находятся в состоянии наведения курсора на них */
-.about_wrap_scale:hover {
-    /* Применить анимацию с продолжительностью 0.4 секунды, которая будет проигрываться в обратном направлении при каждом воспроизведении */
-    animation: about_wrap_scale 0.4s alternate forwards;
